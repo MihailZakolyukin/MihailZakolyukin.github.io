@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Hack"; 
+    src: url("Hack/Hack-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+html{
+    background-color: azure;
+    font-family: "Hack";
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    max-width: 1800px;
+}
+
+.first{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: auto;
+}
+
+.name{
+    align-self: center;
+}
+
+.sub-title{
+    align-self: center;
+}
+
+.phone{
+    align-self: center;
+}
+
+.email{
+    align-self: center;
+}
+
+.skills{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.project-list li{
+    background-color: black;
+    color: white;
+    border: 30px solid transparent;
+    border-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) 20% / 1 / 0 stretch;
+}
+
+/* .rust{
+    list-style-image: url(resourses/rust.ico);
+}
+
+.php{
+    list-style-image: url(resourses/php.ico);
+}
+
+.mysql{
+    list-style-image: url(resourses/mysql.ico);
+}
+
+.postgres{
+    list-style-image: url(resourses/postgres.ico);
+}
+
+.laravel{
+    list-style-image: url(resourses/laravel.ico);
+}
+
+.symfony{
+    list-style-image: url(resourses/symfony.ico);
+}
+
+.actix{
+    list-style-image: url(resourses/actix.ico);
+} */
